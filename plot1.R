@@ -1,6 +1,6 @@
 ## load the data
 
-data<-read.csv(file="/home/mustafa/Téléchargements/household_power_consumption.txt",header=TRUE,sep=";",quote="\"")
+data<-read.csv(file="household_power_consumption.txt",header=TRUE,sep=";",quote="\"")
 
 # convert the date variable to Date class
 
